@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0cm;
+            min-width: 100vh;
+            background: #eee;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #menu{
+            height: 75px;
+            width: 100%;
+            background-color: white;
+            display: flex;
+        }
+
+        #menu .way{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: none;
+            font-size: 25px;
+            width: 15%;
+            height: 100%;
+            font-weight: 500;
+            color: black;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+
+        #menu .way:hover{
+            opacity: .7;
+            transform: scale(1.1);
+            transition: 0.5s;
+            font-size: 35px;
+            border: 1px solid rgba(0, 0, 0, 0.7);
+            border-radius: 5px;
+            background-color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <a href="http://127.0.0.1:5000/home.html" class="way">Home</a>
+        <a href="http://127.0.0.1:5000/login.html" class="way">Login</a>
+        <a href="http://127.0.0.1:5000/registration.html" class="way">Registration</a>
+        <a href="http://127.0.0.1:5000/user.html" class="way">User profile</a>
+        <a href="http://127.0.0.1:5000/user_update.html" class="way">Update</a>
+    </div>
+    <div class=""></div>
+    <div class=""></div>
+    <div class=""></div>
+</body>
+</html>
